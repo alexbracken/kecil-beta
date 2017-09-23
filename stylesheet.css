@@ -124,4 +124,8 @@ h1{
   body{
     overflow:visible;
   }
+
+  .main-container{
+    flex-basis: 90%;
+  }
 }
