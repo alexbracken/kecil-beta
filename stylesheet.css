@@ -1,0 +1,127 @@
+/* TYPOGRAPHY */
+
+p, h1, h2, h3, h4, h5, h6, a{
+font-family: Noto Sans, serif;
+color: #fff;
+}
+
+body{
+  background-color: #8BCAF4;
+  overflow: hidden;
+}
+
+h1{
+  font-size: 48pt;
+
+}
+
+
+
+/* CONTAINERS */
+.main-container{
+  width: 80%;
+  text-align: center;
+  margin: auto;
+}
+
+
+
+/* BUTTONS */
+.button-filled{
+  display: inline-block;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #555;
+  font-size: 18px;
+  width: 150px;
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+  text-decoration: none;
+  line-height:40px;
+}
+
+.button-hollow{
+  display: inline-block;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 5px;
+  border-color: #fff;
+  color: #fff;
+  font-size: 18px;
+  width: 150px;
+  text-align: center;
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+  line-height: 40px;
+}
+
+.divider{
+    width:10px;
+    height:50px;
+    display:inline-block;
+}
+
+.icon{
+  height: 40px;
+  width: 40px;
+  vertical-align: middle;
+  padding-right: 10px;
+}
+
+.button-filled, .button-hollow { transition: all .2s ease-in-out; }
+.button-filled:hover, .button-hollow:hover { transform: scale(1.07); }
+
+
+
+/* HEADLINE */
+.headline{
+  display: flex;
+  justify-content: center;
+}
+
+.headline h1{
+  padding-top: 50px;
+
+}
+
+
+
+
+
+
+/* DESCRIPTION */
+
+#description{
+  display: flex;
+  justify-content: center;
+  padding: 50px 0px 50px 0px;
+}
+
+#description p, a{
+  flex-basis: 60%;
+  justify-content: center;
+}
+
+
+
+
+
+
+/* FEATURED SETUPS */
+
+.featured-setup-container{
+  display: flex;
+  justify-content: center;
+}
+
+.featured-setup{
+  flex: 1;
+  flex-basis: 15%;
+  padding: 0px 20px 0px 20px;
+}
+
+@media(max-width: 1700px;){
+  body{
+    overflow:visible;
+  }
+}
