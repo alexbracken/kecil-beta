@@ -19,7 +19,7 @@ h1{
 
 /* CONTAINERS */
 .main-container{
-  width: 80%;
+  max-width: 90%;
   text-align: center;
   margin: auto;
 }
@@ -126,6 +126,6 @@ h1{
   }
 
   .main-container{
-    flex-basis: 90%;
+    width: 100%;
   }
 }
